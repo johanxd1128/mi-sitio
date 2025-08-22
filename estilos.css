@@ -1,0 +1,110 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 1;
+  padding: 1;
+  line-height: 1.6;
+  background-color: #DED9D9;
+ 
+}
+
+header {
+  background: #5E5151;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  align-items:center;
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  gap:25px;
+  }
+  
+header .logo{
+  width: 75px;
+  height: auto;
+  margin: 0;
+  }
+
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 5px;
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  border-color: #000000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: justify;
+}
+
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+ }
+.caja{
+  width: 200px;
+  height:auto;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.container{
+  text-align: center;
+  margin-top: 10px;  
+}	
+
+section h2 {
+  color: #5E5151;
+  margin-bottom: 10px;
+}
+
+section ul {
+  padding-left: 20px;
+  }
+
+footer {
+  background: #5E5151;
+  color: white;
+  text-align: center;
+  border-radius:20px;
+  padding: 20px;
+  margin-top: 40px;
+  
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
